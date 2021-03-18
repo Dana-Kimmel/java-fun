@@ -7,10 +7,12 @@ public class StringSplosionApp {
 
 	}
  public String stringSplosion(String str) {
-	
-	 //use the String class's toCharArray method
-	 //use a for loop to go through each character in the array.
+	// get length of string
+	 int length = str.length();
 	 
+	 //use a for loop to go through each character in the array.
+	 for (int i = 0; i <  + 1; i++)
+
 	 return str;
  }
 }
