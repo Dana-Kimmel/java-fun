@@ -1,12 +1,9 @@
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
+public class SimpleDotComTestDrive {
 
-class SimpleDotComTestDrive {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
 	}
 
 }
