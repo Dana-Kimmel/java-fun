@@ -2,8 +2,20 @@
 public class SimpleDotComTestDrive {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//instantiate a SimpleDotCom object
+		SimpleDotCom dot = new SimpleDotCom();
+		
+		//make an int array for the location of the dot com ( 3 consecutive ints out of possible 7)
+		int[] locations = {2,3,4};
 
+		//invoke the setter method on the dot com
+		dot.setLocationCells(locations);
+		
+		//make a fake user guess
+		String userGuess = "2";
+		
+		//invoke the checkYourself() method on the dot com object and pass it the fake guess
+		String result = dot.checkYourself(userGuess);
 	}
 
 }
