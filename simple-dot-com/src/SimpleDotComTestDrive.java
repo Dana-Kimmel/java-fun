@@ -16,6 +16,14 @@ public class SimpleDotComTestDrive {
 		
 		//invoke the checkYourself() method on the dot com object and pass it the fake guess
 		String result = dot.checkYourself(userGuess);
+		
+		String testResult = "failed";
+		
+		if (result.equals("hit")) {
+			//if the fake guess (2) gives back a "hit", it's working
+			testResult = "passed";
+		}
+		System.out.println(testResult);
 	}
 
 }
